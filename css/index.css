@@ -1,0 +1,174 @@
+.main-page {
+  height: 100vh;
+  background-image: url("../img/martin.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header {
+  height: 50px;
+  border-bottom: 1px solid #4a4b4f;
+  position: sticky;
+  top: 0;
+}
+header h5 {
+  font-weight: 500;
+}
+header .nav-link {
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.nav-link:hover {
+  color: #ffff;
+  border-bottom: 2px solid #ffff;
+}
+.section-1 {
+  height: calc(100vh - 50px);
+}
+.text-box {
+  height: 60vh;
+  width: 50vw;
+}
+.text-box p {
+  font-size: 40px;
+}
+h1 {
+  font-size: 80px;
+  margin-top: -10px;
+  color: #ffffff;
+}
+.text-box ul {
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  padding: 10px;
+}
+.text-box ul li {
+  margin: 5px;
+  border-right: 1.2px solid #ffff;
+  padding-right: 4px;
+}
+.text-box ul li:last-child {
+  border-right: none;
+}
+.mybtn {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffff;
+  background-color: #f34236;
+  border-radius: 4px;
+}
+.about-page {
+  height: 80vh;
+  background-color: #ffff;
+}
+.img-box {
+  height: 80%;
+  width: 90%;
+  border: 10px solid #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-text-box {
+  height: 90%;
+  width: 90%;
+}
+.line {
+  width: 70px;
+  border: 2px solid #000;
+}
+.about-text-box p {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.icons span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  margin: 2px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.services-page {
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+.service-box {
+  height: 80vh;
+  width: 90%;
+  margin: 10px auto;
+}
+.card {
+  height: 100%;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card-text {
+  font-size: 12px;
+}
+.card-body span {
+  font-size: 30px;
+  color: red;
+}
+.resume-page {
+  height: 100vh;
+  background-color: #fff;
+}
+.resume-box {
+  height: 60vh;
+  width: 90%;
+  margin: 10px auto;
+}
+.resume-box .card {
+  box-shadow: rgba(155, 155, 155, 0.25) 0px 14px 28px,
+    rgba(108, 108, 108, 0.22) 0px 10px 10px;
+}
+.banner {
+  height: 30vh;
+  background-color: #f34236;
+}
+.footer {
+  height: 40vh;
+  background-color: #212121;
+}
+.footer-upper {
+  height: 80%;
+  border-bottom: 1px solid #fff;
+}
+.footer-lower {
+  height: 20%;
+}
+.footer-upper h3 {
+  font-weight: 900;
+}
+.social-icons {
+  display: flex;
+}
+.social-icons span {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: #4a4b4f;
+  align-items: center;
+  line-height: 40px;
+}
+.social-icons span a {
+  color: #fff;
+}
